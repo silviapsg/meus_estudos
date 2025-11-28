@@ -89,7 +89,7 @@ def calcular_imc():
     elif 18.5 <= imc < 25:
         print('Vocês está no peso normal.')
     else:
-        print('Você está acima do peso')
+        print('Você está abaixo do peso')
     
     continuar()
 
