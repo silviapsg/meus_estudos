@@ -22,6 +22,7 @@ Observações WHILE:
 '''
 
 import os
+import sys
 
 # 1 - Ana está desenvolvendo um programa que precisa processar uma lista de 5 nomes de clientes para gerar relatórios mensais. 
 # Para isso, ela precisa escrever um programa que percorra a lista de nomes e exiba cada cliente.
@@ -216,10 +217,14 @@ def validar_login():
             print('Cadastro realizado com sucesso!') 
             break
     
-    continuar()
+    terminar()
 
 def continuar ():
     input('\nDigite uma tecla para avançar para a próxima atividade ')
+
+def terminar ():
+    print('Finalizando as atividades... Até mais!')
+    sys.exit()
 
 def main():
     processar_nomes()
