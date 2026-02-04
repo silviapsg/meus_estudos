@@ -16,31 +16,32 @@ A ideia não é ter códigos "perfeitos", mas sim mostrar evolução, raciocíni
 A organização pode mudar conforme os estudos avançam, mas atualmente segue este padrão:
 
 ```
-├── carreira-python/
-│     ├── exercicios/
-│     │     ├── conjuntos_dicionarios.py
-│     │     ├── for_while.py
-│     │     ├── funcoes_padrao.py
-│     │     ├── funcoes.py
-│     │     ├── if_elif_else.py
-│     │     ├── listas_tuplas.py
-│     │     └── trabalhando_com_projetos.py
-│     ├── projetos/
-│     │     ├── oo_sabor_express/
-│     │     │     ├── modelos/
-│     │     │     |     ├── cardapio/
-│     │     │     |     |     ├── bebida.py
-│     │     │     |     |     ├── item_cardapio.py
-│     │     │     |     |     ├── prato.py
-│     │     │     |     ├── avaliacao.py
-│     │     │     |     ├── restaurante.py
-│     │     │     └── app.py
-│     │     ├── oo_sabor_express_venv_api/
-│     │     │     ├── app.py
-│     │     │     ├── main.py
-│     │     │     └── requirements.txt
-│     │     ├── aplicando_a_oo.py
-│     │     └── sabor_express.py
+meus_estudos/
+├── carreira_python/
+│   ├── exercicios/
+│   │   ├── conjuntos_dicionarios.py
+│   │   ├── for_while.py
+│   │   ├── funcoes_padrao.py
+│   │   ├── funcoes.py
+│   │   ├── if_elif_else.py
+│   │   ├── listas_tuplas.py
+│   │   └── trabalhando_com_projetos.py
+│   ├── projetos/
+│   │   ├── oo_sabor_express/
+│   │   │   ├── modelos/
+│   │   │   │   ├── cardapio/
+│   │   │   │   │   ├── bebida.py
+│   │   │   │   │   ├── item_cardapio.py
+│   │   │   │   │   └── prato.py
+│   │   │   │   ├── avaliacao.py
+│   │   │   │   └── restaurante.py
+│   │   │   └── app.py
+│   │   ├── oo_sabor_express_venv_api/
+│   │   │   ├── app.py
+│   │   │   ├── main.py
+│   │   │   └── requirements.txt
+│   │   ├── aplicando_a_oo.py
+│   │   └── sabor_express.py
 ├── .gitignore
 └── README.md
 ```
