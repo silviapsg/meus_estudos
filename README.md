@@ -17,17 +17,18 @@ A organização pode mudar conforme os estudos avançam, mas atualmente segue es
 
 ```
 meus_estudos/
-├── carreira_python/
-│   ├── exercicios/
+├── python/
+│   ├── fundamentos/
 │   │   ├── conjuntos_dicionarios.py
 │   │   ├── for_while.py
 │   │   ├── funcoes_padrao.py
 │   │   ├── funcoes.py
 │   │   ├── if_elif_else.py
 │   │   ├── listas_tuplas.py
+│   │   ├── primeira_aplicacao.py
 │   │   └── trabalhando_com_projetos.py
-│   ├── projetos/
-│   │   ├── oo_sabor_express/
+│   ├── orientacao_objetos/
+│   │   ├── aplicando_orientacao_objetos/
 │   │   │   ├── modelos/
 │   │   │   │   ├── cardapio/
 │   │   │   │   │   ├── bebida.py
@@ -36,12 +37,21 @@ meus_estudos/
 │   │   │   │   ├── avaliacao.py
 │   │   │   │   └── restaurante.py
 │   │   │   └── app.py
-│   │   ├── oo_sabor_express_venv_api/
+│   │   ├── avancando_orientacao_objetos_api/
 │   │   │   ├── app.py
 │   │   │   ├── main.py
 │   │   │   └── requirements.txt
-│   │   ├── aplicando_a_oo.py
-│   │   └── sabor_express.py
+│   │   ├── aplicando_orientacao_objetos.py
+│   ├── persistencia_dados/
+│   │   ├── banco_dadps/
+│   │   │   ├── db_mongo.py
+│   │   │   └── db_sql.py
+│   │   ├── gravacao_manipulacao_arquivos/
+│   │   │   ├── alunos_data.py
+│   │   │   ├── gravacao_manipulacao_arquivos.py
+│   │   │   ├── input_data.py
+│   │   │   └── read_data.txt
+│   │   └── listas_tuplas_dicionarios.py
 ├── .gitignore
 └── README.md
 ```

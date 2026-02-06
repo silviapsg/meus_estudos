@@ -1,7 +1,16 @@
+# Python
 __pycache__/
 *.py[cod]
+
+# Ambientes virtuais
 venv/
 .env/
-*.json
+
+#Arquivos de dados locais
 *.csv
-carreira_python/exercicios/*.txt
+*.db
+*.json
+*.txt
+
+# Exceções
+!requirements.txt
